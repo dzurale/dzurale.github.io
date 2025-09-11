@@ -8,51 +8,16 @@ This header is indeed test
 
 ## Welcome to My Hugo Site!
 
-![Image description](images/my-image.png) <!-- replace with your image path -->
+![Image description](/images/my-image.png) <!-- replace with your image path -->
 
 This is a sample text describing the content of the site.
 
 ### Audio Section
 
-{{<audio src="media/audio/my-audio.wav" caption="your caption" >}}
+{{<audio src="/audio/my-audio.wav" caption="your caption" >}}
 
-<div class="audio-row">
-  <audio controls>
-    <source src="audio/my-audio.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-  <audio controls>
-    <source src="audio/my-audio.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-  <audio controls>
-    <source src="audio/my-audio.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-</div>
-
-<div class="audio-row">
-  <audio controls>
-    <source src="audio/my-audio.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-  <audio controls>
-    <source src="audio/my-audio.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-  <audio controls>
-    <source src="audio/my-audio.wav" type="audio/wav">
-    Your browser does not support the audio element.
-  </audio>
-</div>
-
-<style>
-  .audio-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  audio {
-    margin-right: 10px;
-  }
-</style>
+| Title | Description | Audio |
+|-------|------------|--------|
+| Track 1 | {{< audio src="/audio/my-audio.wav" caption="Listen to Track 1" >}} | {{< audio src="/audio/my-audio.wav" caption="Listen to Track 1" >}} |
+| Track 2 | {{< audio src="/audio/my-audio.wav" caption="Listen to Track 1" >}} | {{< audio src="/audio/my-audio.wav" caption="Listen to Track 2" >}} |
+| Track 3 | {{< audio src="/audio/my-audio.wav" caption="Listen to Track 1" >}} | {{< audio src="/audio/my-audio.wav" caption="Listen to Track 3" >}} |

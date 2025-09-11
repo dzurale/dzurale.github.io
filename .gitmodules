@@ -4,3 +4,6 @@
 [submodule "test_site/themes/ananke"]
 	path = test_site/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "site1/themes/ananke"]
+	path = site1/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git

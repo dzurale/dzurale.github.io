@@ -1,4 +1,4 @@
-baseURL = 'https://dzurale.github.io/test_site/'
+baseURL = 'https://dzurale.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'beautifulhugo'
